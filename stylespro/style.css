@@ -1,0 +1,149 @@
+/* fontes usadas */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+*{  /* resetando estilo padrão do navegador - reset css */
+    margin:0;  
+    padding:0;
+}
+:root{
+    --cor-principal: #22D4FD;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #F6F6F6;
+    --cor-marca1: #8DFFCD;
+    --cor-marca2:#816E94;
+    --cor-hover:#272727;
+}
+body{
+    box-sizing: border-box; /* colocar borda para nada sair da tela */
+    /*height:100vh;  colocando a altura da tela sem rolagem - só até o final dos elementos colocados nela */
+    background-color: var(--cor-secundaria);
+    color: white; 
+} /* classes marcando textos diferentes */
+.título-destaque {
+    color: var(--cor-marca2);
+}
+.marca-texto{
+    color:var(--cor-marca1);
+    /*border: 1px solid #22D4FD; /* borda sólida em volta do texto */
+    /*padding: 5px; /* tamanho da borda */
+}
+.papai-main{ /* colocando código para ficar em linha reta */
+    margin:5% 17%;
+    gap:82px;
+    display: flex;
+    align-items: center; /* alinhar tudo no centro da pag */
+    justify-content:space-between; /* colocando um espaço entre a imagem e os textos */
+}
+.papai-main_junior{
+    width:50%;
+    display: flex;
+    flex-direction:column;
+    gap:40px; /* espaçamento entre colunas ou elementos */ 
+}
+.junior-titulo{
+    
+    font-family:'Krona One', sans-serif;
+    font-size:2.25rem;
+}
+.junior-para{
+    color:var(--cor-terciaria);
+    font-family:'Montserrat', sans-serif;
+    font-size:1.5rem;
+}
+.botoes-redes{
+    display:flex; /* coloca os quadrados lado a lado */
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    gap: 32px; /* adiciona espaços iguais entre cada quadrado */
+}
+.subtitulo-redes{
+    font-family:'Krona One', sans-serif;
+    font-weight:400;
+    font-size:1.5rem;
+}
+.botoes-links{
+    border: 2px solid var(--cor-principal); /*tamanho, traço e cor da borda*/
+    width:50%; /*largura da borda */
+    text-align: center;
+    border-radius: 8px; /*arredondada borda*/
+    font-weight:600px;
+    font-size:1.5rem;
+    padding: 21.5px 0;
+    text-decoration:none;
+    color: var(--cor-terciaria);
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    justify-content:center;
+    gap:16px;
+}
+.botoes-links:hover{
+    background-color:var(--cor-hover);
+}
+.imagens-style{
+    width: 50%;
+}
+.imagens-style:hover{
+    background-color:var(--cor-principal);
+    border:1px solid var(--cor-principal); 
+    border-radius:8px;
+    padding: 3%;
+}
+.rodape-style{
+    background-color:var(--cor-principal);
+    font-family:'Montserrat', sans-serif;
+    font-size:1.0625rem;
+    font-weight:400;
+    padding:24px;
+    color:var(--cor-secundaria);
+    display:flex;
+    justify-content:center;
+}
+.header-nave{
+    display:flex;
+    gap:80px;
+    
+    
+}
+.header-style{
+    font-family:'Montserrat', sans-serif;
+    font-size:1.125rem;
+    font-weight: 600;
+    gap:200px;
+    font:30px;
+    padding:2% 0% 0% 15%;
+    
+}
+.header-links{
+    text-decoration:none;
+    color:var(--cor-principal);
+}
+/*.header-ho:hover{
+    color:#22D4FD;
+}*/
+.marca-curso{
+    text-decoration:none;
+    color:var(--cor-principal);
+}
+
+@media(max-width: 1200px){
+    .papai-main{
+        flex-direction:column-reverse;
+        padding: 5%;
+        
+    }   
+    .header-style{
+        padding:6%;
+    } 
+    .header-nave{
+        justify-content: center;
+    }
+    .papai-main_junior{
+        width:auto;
+    }
+}
+
+
+
+
