@@ -6,7 +6,7 @@
 <p> Esse projeto foi criado com o intuito de mostrar minhas principais habilidades e facilitar para você meu contratante, entender um pouco de mim. </p>
 <p> Criei usando o VSCODE. </p>
 
-<h1>Tutorial :)</h1>
+<h1>Como Acessar:</h1>
 <p> Entre na página pelo link: https://portfolio-p4hh7nlmy-clarke2302.vercel.app/?vercelToolbarCode=SAdjAM8A6CYs99A </p>
 <p> Saiba mais sobre mim clicando nas minhas redes sociais!!!</p>
 <p> Aproveite.</p>
